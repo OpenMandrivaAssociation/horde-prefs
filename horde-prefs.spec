@@ -8,12 +8,11 @@ Version:       0.0.3
 Release:       %mkrel 1
 Summary:       Horde Prefs package
 License:       LGPL
-Group:         Productivity/Networking/Web/Servers
+Group:         Networking/Mail
 Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
-BuildRoot:     %{_tmppath}/%{name}-%{version}-build
-PreReq:        %{_bindir}/pear
+Requires(pre): %{_bindir}/pear
 Requires:      horde-util
 Requires:      horde-framework
 Requires:      php-pear
@@ -21,6 +20,7 @@ Requires:      php-gettext
 BuildRequires: horde-framework
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
+BuildRoot:     %{_tmppath}/%{name}-%{version}
 
 %description
 The Prefs:: class provides a common abstracted interface into the various
