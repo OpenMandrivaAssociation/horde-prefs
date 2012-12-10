@@ -64,3 +64,22 @@ fi
 %{peardir}/Horde/Prefs/session.php
 %{peardir}/Horde/Prefs/sql.php
 
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.3-3mdv2011.0
++ Revision: 564080
+- Increased release for rebuild
+
+* Wed Mar 17 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.3-2mdv2010.1
++ Revision: 523035
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased release version
+
+* Mon Feb 22 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.3-1mdv2010.1
++ Revision: 509383
+- removed Buildrequires: horde-framework
+- replaced PreReq with Requires(pre)
+- Initial import
+
+
