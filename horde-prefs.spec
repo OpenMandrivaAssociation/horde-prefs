@@ -5,7 +5,7 @@
 
 Name:          horde-prefs
 Version:       0.0.3
-Release:       %mkrel 3
+Release:       4
 Summary:       Horde Prefs package
 License:       LGPL
 Group:         Networking/Mail
